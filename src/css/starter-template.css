@@ -22,14 +22,14 @@ body {
 }
 .map-box {
   position: relative;
-  width: 90%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
 .map-box:before {
   content: "";
   display: block;
-  padding-top: 90%;
+  padding-top: 75%;
 }
 .map {
 	position:  absolute;
