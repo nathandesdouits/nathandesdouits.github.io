@@ -8,8 +8,17 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.container {
+  height: 100%;
+  width: 100%;
+}
+.day {
+  height: 100%;
+  width: 100%;
+}
 .map {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
