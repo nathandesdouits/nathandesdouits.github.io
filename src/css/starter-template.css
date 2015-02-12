@@ -2,12 +2,12 @@
 body {
   height: 100%;
   width: 100%;
-  margin: 5px;
 }
 .body {
   padding-top: 20px;
   padding-bottom: 20px;
   height: 100%;
+  margin: 5px;
 }
 .row, .col {
   overflow: hidden;
