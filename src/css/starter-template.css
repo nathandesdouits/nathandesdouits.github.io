@@ -10,8 +10,8 @@ body {
 .footer {
   padding-right: 15px;
   padding-left: 15px;
-  overflow: hidden;
-  position: absolute;
+  /* overflow: hidden;
+  position: absolute; */ 
 }
 
 /* Custom page header */
