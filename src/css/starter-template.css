@@ -62,8 +62,8 @@ body {
 .day {
   height: 100%;
   width: 80%;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   /* margin-left: auto;
   margin-right: auto; */
 }
