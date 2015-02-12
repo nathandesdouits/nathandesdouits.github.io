@@ -19,6 +19,11 @@ body {
 .scroll-x { overflow-x: auto; }
 .scroll-y { overflow-y: auto; }
 
+
+.header.row { height: 75px; top: 0; }
+.body.row { top: 75px; bottom: 50px; }
+.footer.row { height: 50px; bottom: 0; }
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
