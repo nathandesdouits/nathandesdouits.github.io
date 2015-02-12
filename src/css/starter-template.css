@@ -3,16 +3,20 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-  /* overflow: hidden;
-  position: absolute; */ 
+.row, .col {
+  overflow: hidden;
+  position: absolute;
 }
+.row {
+  left: 0;
+  right: 0;
+}
+.col {
+  top: 0;
+  bottom: 0;
+}
+.scroll-x { overflow-x: auto; }
+.scroll-y { overflow-y: auto; }
 
 /* Custom page header */
 .header {
@@ -33,23 +37,11 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
+
 .container-narrow > hr {
   margin: 30px 0;
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  height: 100%;
-  overflow-y: auto;
-  /* border-bottom: 1px solid #e5e5e5; */
-}
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
@@ -73,11 +65,11 @@ body {
   padding-top: 10px;
 }
 .map {
-	position:  absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 
@@ -89,6 +81,14 @@ body {
   margin-top: 28px;
 }
 */
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
