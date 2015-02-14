@@ -57,10 +57,11 @@ code {
   padding-right: 10px;
 }
 .address-box {
-  margin: 5px;
+  padding: 5px;
   width: 100%;
+  overflow: hidden;
 }
 .address {
-  float: right
+  float: left
   width: auto;
 }
