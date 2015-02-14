@@ -58,7 +58,9 @@ code {
 }
 .address-box {
   margin: 5px;
+  width: 100%;
 }
 .address {
-  margin: 5px;
+  float: right
+  width: auto;
 }
