@@ -56,4 +56,6 @@ code {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.address {
+  padding: 5px;
+}
